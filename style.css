@@ -1,0 +1,41 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+header {
+    background-color: royalblue;
+    color: white;
+}
+nav {
+    /* Add your navigation styles here */
+}
+main {
+    /* Add your main content styles here */
+}
+#featured-products {
+    background-color: gold;
+    padding: 20px;
+}
+#product-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#product-list li {
+    width: 31%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#product-list img {
+    width: 100%;
+    height: auto;
+}
+footer {
+    background-color: darkgreen;
+    color: white;
+}
